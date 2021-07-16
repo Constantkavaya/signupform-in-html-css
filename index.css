@@ -1,0 +1,57 @@
+
+*{
+    box-sizing: border-box;
+}
+input[type="text"] ,[type="password"] ,[type="username"]{
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0  20px 0;
+display: inline-block;
+border: 0;
+background-color: goldenrod;
+
+}
+button{
+    background-color: khaki;
+    color: grey;
+    padding: 10px 20px;
+    margin: 0;
+    width: 20%;
+    cursor: pointer;
+    border: 0;
+}
+.cancel{
+    padding: 8px;
+    background-color: khaki;
+}
+
+.cancel .sign{
+float: left;
+width: 50%;
+}
+.sack{
+    padding: 20px;
+    text-align: center;
+}
+
+.btn::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+  input[type="checkbox"] {
+      margin-bottom: 0%;
+  }
+  .content{
+      text-align: center;
+  }
+  body{
+      background-color: grey;
+  }
+  
